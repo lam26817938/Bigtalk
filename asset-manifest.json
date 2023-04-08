@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.js": "/Bigtalk/static/js/main.343e7ff5.js",
-    "static/js/336.1fca6c16.js": "/Bigtalk/static/js/336.1fca6c16.js",
+    "main.js": "/Bigtalk/static/js/main.e1943272.js",
+    "static/js/443.b335e117.js": "/Bigtalk/static/js/443.b335e117.js",
+    "static/media/MaterialCommunityIcons.ttf": "/Bigtalk/static/media/MaterialCommunityIcons.5d42b4e60858731e7b65.ttf",
     "favicon.ico": "/Bigtalk/favicon.ico",
     "index.html": "/Bigtalk/index.html",
     "favicon-32.png": "/Bigtalk/favicon-32.png",
     "favicon-16.png": "/Bigtalk/favicon-16.png",
     "serve.json": "/Bigtalk/serve.json",
     "manifest.json": "/Bigtalk/manifest.json",
-    "main.343e7ff5.js.map": "/Bigtalk/static/js/main.343e7ff5.js.map",
-    "336.1fca6c16.js.map": "/Bigtalk/static/js/336.1fca6c16.js.map"
+    "main.e1943272.js.map": "/Bigtalk/static/js/main.e1943272.js.map",
+    "443.b335e117.js.map": "/Bigtalk/static/js/443.b335e117.js.map"
   },
   "entrypoints": [
-    "static/js/336.1fca6c16.js",
-    "static/js/main.343e7ff5.js"
+    "static/js/443.b335e117.js",
+    "static/js/main.e1943272.js"
   ]
 }
