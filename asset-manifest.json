@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/Bigtalk/static/js/main.ebe3e32c.js",
+    "main.js": "/Bigtalk/static/js/main.32d17dab.js",
     "static/css/25.823e39f5.css": "/Bigtalk/static/css/25.823e39f5.css",
     "static/media/MaterialCommunityIcons.ttf": "/Bigtalk/static/media/MaterialCommunityIcons.5d42b4e60858731e7b65.ttf",
     "favicon.ico": "/Bigtalk/favicon.ico",
@@ -9,11 +9,11 @@
     "favicon-16.png": "/Bigtalk/favicon-16.png",
     "serve.json": "/Bigtalk/serve.json",
     "manifest.json": "/Bigtalk/manifest.json",
-    "main.ebe3e32c.js.map": "/Bigtalk/static/js/main.ebe3e32c.js.map",
+    "main.32d17dab.js.map": "/Bigtalk/static/js/main.32d17dab.js.map",
     "25.823e39f5.css.map": "/Bigtalk/static/css/25.823e39f5.css.map"
   },
   "entrypoints": [
     "static/css/25.823e39f5.css",
-    "static/js/main.ebe3e32c.js"
+    "static/js/main.32d17dab.js"
   ]
 }
