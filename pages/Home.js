@@ -26,7 +26,7 @@ const Home = () =>{
                 Many stuff related to me 
               </Text>
               <Button
-                title="Go to Details"
+                title={<Text style={styles.buttontext}>Go to Details</Text>}
                 type="outline"
                 icon={{ name: 'arrow-right', type: 'font-awesome' }}
                 buttonStyle={styles.button}
@@ -40,7 +40,7 @@ const Home = () =>{
                 聯發科前端 assignment
               </Text>
               <Button
-                title="Go to Details"
+                title={<Text style={styles.buttontext}>Go to Details</Text>}
                 type="outline"
                 icon={{ name: 'arrow-right', type: 'font-awesome' }}
                 buttonStyle={styles.button}
@@ -54,7 +54,7 @@ const Home = () =>{
                 USC Reserach Assistant - A web web crawler to get all products information from online retail for marketing purpose
               </Text>
               <Button
-                title="Go to Details"
+                title={<Text style={styles.buttontext}>Go to Details</Text>}
                 type="outline"
                 icon={{ name: 'arrow-right', type: 'font-awesome' }}
                 buttonStyle={styles.button}
@@ -68,7 +68,7 @@ const Home = () =>{
                 USC Capstone Project - a full stack website. Implemented autoencoder from deep learning
               </Text>
               <Button
-                title="Go to Details"
+                title={<Text style={styles.buttontext}>Go to Details</Text>}
                 type="outline"
                 icon={{ name: 'arrow-right', type: 'font-awesome' }}
                 buttonStyle={styles.button}
@@ -82,7 +82,7 @@ const Home = () =>{
                 A stream chatbot - 一個擁有中文指令與金流功能的直播機器人
               </Text>
               <Button
-                title="Go to Details"
+                title={<Text style={styles.buttontext}>Go to Details</Text>}
                 type="outline"
                 icon={{ name: 'arrow-right', type: 'font-awesome' }}
                 buttonStyle={styles.button}
@@ -131,14 +131,12 @@ const styles = StyleSheet.create({
   },
   button:{
     borderRadius: 10,
-    backgroundColor: '#FF69B4',
+    backgroundColor: '#FFC1E0',
     padding: 10,
     marginTop: 20,
   },
-  buttonText: {
-    color: '#FFF',
-    fontSize: 18,
-    fontWeight: 'bold',
+  buttontext:{
+    fontWeight: 'bold'
   },
   top:{
     height: 100,

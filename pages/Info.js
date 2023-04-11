@@ -40,15 +40,14 @@ const Info = () => {
           <Text style={styles.course}>{course}</Text>
         ))}
       </View>
+      </View>
+      <View style={styles.right}>
       <View style={styles.section}>
         <Text style={styles.sectionTitle}>Skill Set:</Text>
         {skill.map((course) => (
           <Text style={styles.course}>{course}</Text>
         ))}
       </View>
-      </View>
-      <View style={styles.right}>
-
       <View style={styles.section}>
         <Text style={styles.sectionTitle}>Honor</Text>
         {Honor.map((course) => (
