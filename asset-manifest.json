@@ -1,20 +1,39 @@
 {
   "files": {
-    "main.js": "/Bigtalk/static/js/main.69882746.js",
+    "main.js": "/Bigtalk/static/js/main.93a06566.js",
     "static/css/25.823e39f5.css": "/Bigtalk/static/css/25.823e39f5.css",
     "static/media/MaterialCommunityIcons.ttf": "/Bigtalk/static/media/MaterialCommunityIcons.5d42b4e60858731e7b65.ttf",
+    "static/media/Fontisto.ttf": "/Bigtalk/static/media/Fontisto.c0edd68811e0237502fe.ttf",
+    "static/media/Ionicons.ttf": "/Bigtalk/static/media/Ionicons.3517aeaa34b2f8cd8eef.ttf",
+    "static/media/MaterialIcons.ttf": "/Bigtalk/static/media/MaterialIcons.120b4c7bbd155bd0a04d.ttf",
+    "static/media/FontAwesome5_Solid.ttf": "/Bigtalk/static/media/FontAwesome5_Solid.07c3313b24f7b1ca85ee.ttf",
+    "static/media/FontAwesome.ttf": "/Bigtalk/static/media/FontAwesome.1e59d2330b4c6deb84b3.ttf",
+    "static/media/FontAwesome5_Brands.ttf": "/Bigtalk/static/media/FontAwesome5_Brands.9e138496e8f1719c6ebf.ttf",
+    "static/media/AntDesign.ttf": "/Bigtalk/static/media/AntDesign.163adab9dbd7cb1ed12a.ttf",
+    "static/media/Entypo.ttf": "/Bigtalk/static/media/Entypo.fc6169344c041cffcdae.ttf",
+    "static/media/Foundation.ttf": "/Bigtalk/static/media/Foundation.c0cbb004854f9c746f89.ttf",
+    "static/media/Feather.ttf": "/Bigtalk/static/media/Feather.0f5d9cede2e831f3fc80.ttf",
+    "static/media/SimpleLineIcons.ttf": "/Bigtalk/static/media/SimpleLineIcons.3ec13a24af3fdda11107.ttf",
+    "static/media/Octicons.ttf": "/Bigtalk/static/media/Octicons.6b742a230954dc640ba2.ttf",
+    "static/media/FontAwesome5_Regular.ttf": "/Bigtalk/static/media/FontAwesome5_Regular.1017bce89c72f95bcf8e.ttf",
+    "static/media/Zocial.ttf": "/Bigtalk/static/media/Zocial.07fea2ac49bcc67d9a6b.ttf",
     "favicon.ico": "/Bigtalk/favicon.ico",
+    "static/media/EvilIcons.ttf": "/Bigtalk/static/media/EvilIcons.699664b33ac2837d5bee.ttf",
     "static/media/mtk.png": "/Bigtalk/static/media/mtk.87ac4421d94cc02e38df.png",
     "index.html": "/Bigtalk/index.html",
+    "static/media/rocket.png": "/Bigtalk/static/media/rocket.d2f3bf41d5e4515c39a9.png",
+    "static/media/bell.png": "/Bigtalk/static/media/bell.cf04af27d6a651c4b904.png",
     "favicon-32.png": "/Bigtalk/favicon-32.png",
+    "static/media/star.png": "/Bigtalk/static/media/star.69c7138684828d68fe5a.png",
+    "static/media/heart.png": "/Bigtalk/static/media/heart.23b5c2c0eb77d50ff1b4.png",
     "favicon-16.png": "/Bigtalk/favicon-16.png",
     "serve.json": "/Bigtalk/serve.json",
     "manifest.json": "/Bigtalk/manifest.json",
-    "main.69882746.js.map": "/Bigtalk/static/js/main.69882746.js.map",
+    "main.93a06566.js.map": "/Bigtalk/static/js/main.93a06566.js.map",
     "25.823e39f5.css.map": "/Bigtalk/static/css/25.823e39f5.css.map"
   },
   "entrypoints": [
     "static/css/25.823e39f5.css",
-    "static/js/main.69882746.js"
+    "static/js/main.93a06566.js"
   ]
 }
