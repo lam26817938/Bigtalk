@@ -1,0 +1,148 @@
+import { StatusBar } from 'expo-status-bar';
+import { StyleSheet, Text, View, TextInput, Linking, Head } from 'react-native';
+import { Button } from 'react-native-elements';
+import { Card } from 'react-native-elements';
+import { useNavigate } from "react-router-dom";
+
+
+const Home = () =>{
+
+  const navigate = useNavigate();
+  const gopeace = () => {
+    Linking.openURL('https://sccapstone.github.io/peace_frontend/');
+  };
+  const goNaibot = () => {
+    Linking.openURL('https://naibot-api.azurewebsites.net');
+  };
+
+    return (
+        <View style={styles.container}>
+          <div style={styles.top}></div>
+          <Text style={styles.title}>🌸Lian's Portfolio🌸</Text>
+          <Card containerStyle={styles.card}>
+            <Card.Title>Personal Information</Card.Title>
+            <Card.Divider />
+              <Text style={{ marginBottom: 10 }}>
+                Many stuff related to me 
+              </Text>
+              <Button
+                title="Go to Details"
+                type="outline"
+                icon={{ name: 'arrow-right', type: 'font-awesome' }}
+                buttonStyle={styles.button}
+                onPress={() => navigate(`/Info`)}
+              />
+          </Card>
+          <Card containerStyle={styles.card}>
+            <Card.Title>MTK assingment</Card.Title>
+            <Card.Divider />
+              <Text style={{ marginBottom: 10 }}>
+                聯發科前端 assignment
+              </Text>
+              <Button
+                title="Go to Details"
+                type="outline"
+                icon={{ name: 'arrow-right', type: 'font-awesome' }}
+                buttonStyle={styles.button}
+                onPress={() => navigate(`/MTK`)}
+              />
+          </Card>
+          <Card containerStyle={styles.card}>
+            <Card.Title>RA</Card.Title>
+            <Card.Divider />
+              <Text style={{ marginBottom: 10 }}>
+                USC Reserach Assistant - A web web crawler to get all products information from online retail for marketing purpose
+              </Text>
+              <Button
+                title="Go to Details"
+                type="outline"
+                icon={{ name: 'arrow-right', type: 'font-awesome' }}
+                buttonStyle={styles.button}
+                onPress={() => navigate(`/RA`)}
+              />
+          </Card>
+          <Card containerStyle={styles.card}>
+            <Card.Title>Peace</Card.Title>
+            <Card.Divider />
+              <Text style={{ marginBottom: 10 }}>
+                USC Capstone Project - a full stack website. Implemented autoencoder from deep learning
+              </Text>
+              <Button
+                title="Go to Details"
+                type="outline"
+                icon={{ name: 'arrow-right', type: 'font-awesome' }}
+                buttonStyle={styles.button}
+                onPress={gopeace}
+              />
+          </Card>
+          <Card containerStyle={styles.card}>
+            <Card.Title>Naibot</Card.Title>
+            <Card.Divider />
+              <Text style={{ marginBottom: 10 }}>
+                A stream chatbot - 一個擁有中文指令與金流功能的直播機器人
+              </Text>
+              <Button
+                title="Go to Details"
+                type="outline"
+                icon={{ name: 'arrow-right', type: 'font-awesome' }}
+                buttonStyle={styles.button}
+                onPress={goNaibot}
+              />
+          </Card>
+          <StatusBar style="auto" />
+        </View>
+      );
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#4F9D9D',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  card: {
+    height: 220,
+    backgroundColor: '#FFF',
+    width: '60%',
+    borderRadius: 10,
+    borderWidth: 2,
+    borderColor: '#FF69B4',
+    alignItems: 'center',
+    justifyContent: 'center',
+    padding: 20,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.25,
+    shadowRadius: 3.84,
+    elevation: 5,
+  },
+  title: {
+    position: 'absolute',
+    top: 20,
+    left: 100,
+    margin: 10,
+    fontSize: 28,
+    fontWeight: 'bold',
+    color: '#FF69B4',
+    textShadowColor: '#FFF',
+    textShadowOffset: { width: 1, height: 1 },
+    textShadowRadius: 1,
+  },
+  button:{
+    borderRadius: 10,
+    backgroundColor: '#FF69B4',
+    padding: 10,
+    marginTop: 20,
+  },
+  buttonText: {
+    color: '#FFF',
+    fontSize: 18,
+    fontWeight: 'bold',
+  },
+  top:{
+    height: 100,
+  },
+});
+
+export default Home
