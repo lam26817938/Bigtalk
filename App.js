@@ -5,6 +5,7 @@ import MTK from "./pages/MTK";
 import Home from "./pages/Home";
 import RA from "./pages/RA";
 import Info from "./pages/Info";
+import Itri from "./pages/Itri";
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
                 <Route path='/MTK' element={<MTK/>}/>
                 <Route path='/RA' element={<RA/>}/>
                 <Route path='/Info' element={<Info/>}/>
+                <Route path='/Itri' element={<Itri/>}/>
               </Routes>
 
         </Router >

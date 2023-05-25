@@ -13,7 +13,7 @@ const RA = () =>{
       </Button>
       </div>
       <Text style={{ marginBottom: 10, fontSize:40 }}>
-                not ready!
+                Sorry I signed the Non-disclosure agreement!
               </Text>
         </View>
     );
