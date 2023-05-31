@@ -7,6 +7,7 @@ import RA from "./pages/RA";
 import Info from "./pages/Info";
 import Itri from "./pages/Itri";
 import Library from "./pages/Library";
+import Encoder from "./pages/encoder";
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
                 <Route path='/Info' element={<Info/>}/>
                 <Route path='/Itri' element={<Itri/>}/>
                 <Route path='/Library' element={<Library/>}/>
+                <Route path='/encoder' element={<Encoder/>}/>
               </Routes>
 
         </Router >

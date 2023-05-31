@@ -117,6 +117,20 @@ const Home = () =>{
                 onPress={() => navigate(`/Library`)}
               />
           </Card>
+          <Card containerStyle={styles.card}>
+            <Card.Title>C++ Encoder</Card.Title>
+            <Card.Divider />
+              <Text style={{ marginBottom: 10 }}>
+                A encoder convente data to C++ for IC design purpose made by Python.
+              </Text>
+              <Button
+                title={<Text style={styles.buttontext}>Go to Details</Text>}
+                type="outline"
+                icon={{ name: 'arrow-right', type: 'font-awesome' }}
+                buttonStyle={styles.button}
+                onPress={() => navigate(`/Encoder`)}
+              />
+          </Card>
           <StatusBar style="auto" />
         </View>
       );
