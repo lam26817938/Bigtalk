@@ -103,6 +103,20 @@ const Home = () =>{
                 onPress={() => navigate(`/Itri`)}
               />
           </Card>
+          <Card containerStyle={styles.card}>
+            <Card.Title>Library</Card.Title>
+            <Card.Divider />
+              <Text style={{ marginBottom: 10 }}>
+                A Library system used by Zhongshan Elementary School
+              </Text>
+              <Button
+                title={<Text style={styles.buttontext}>Go to Details</Text>}
+                type="outline"
+                icon={{ name: 'arrow-right', type: 'font-awesome' }}
+                buttonStyle={styles.button}
+                onPress={() => navigate(`/Library`)}
+              />
+          </Card>
           <StatusBar style="auto" />
         </View>
       );

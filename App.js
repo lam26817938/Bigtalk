@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import RA from "./pages/RA";
 import Info from "./pages/Info";
 import Itri from "./pages/Itri";
+import Library from "./pages/Library";
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
                 <Route path='/RA' element={<RA/>}/>
                 <Route path='/Info' element={<Info/>}/>
                 <Route path='/Itri' element={<Itri/>}/>
+                <Route path='/Library' element={<Library/>}/>
               </Routes>
 
         </Router >
