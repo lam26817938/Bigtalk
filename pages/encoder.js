@@ -13,7 +13,8 @@ const Encoder = () =>{
       </Button>
       </div>
       <Text style={{ marginBottom: 10, fontSize:40 }}>
-                Confidential!
+               High Confidential!{"\n\n"}
+              It's a effectial tool currently used by a semiconductor company
               </Text>
         </View>
     );

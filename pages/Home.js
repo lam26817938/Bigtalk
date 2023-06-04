@@ -37,7 +37,7 @@ const Home = () =>{
             <Card.Title>MTK assingment</Card.Title>
             <Card.Divider />
               <Text style={{ marginBottom: 10 }}>
-                聯發科前端 assignment
+                MediaTek frontend assignment
               </Text>
               <Button
                 title={<Text style={styles.buttontext}>Go to Details</Text>}
@@ -93,7 +93,7 @@ const Home = () =>{
             <Card.Title>Itri-Line-GPT</Card.Title>
             <Card.Divider />
               <Text style={{ marginBottom: 10 }}>
-                My internship in Itri
+                My internship in Itri(Industrial Technology Research Institute). Modify chatGPT into a customer service with several feature 
               </Text>
               <Button
                 title={<Text style={styles.buttontext}>Go to Details</Text>}

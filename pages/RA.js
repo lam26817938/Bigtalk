@@ -13,7 +13,10 @@ const RA = () =>{
       </Button>
       </div>
       <Text style={{ marginBottom: 10, fontSize:40 }}>
-                Sorry I signed the Non-disclosure agreement!
+                Sorry I signed the Non-disclosure agreement!{"\n\n"}
+                The tools I use:{"\n"}
+                *Python    *Data Analysis  *Selenium  *Git  *Linux{"\n"}
+                *Network  *Project organize  *Html  *Parallel{"\n"}
               </Text>
         </View>
     );

@@ -14,7 +14,7 @@ const Info = () => {
   const [skill, setskill] = useState(['Git' , 'MARS' , 'Linux' , 'Azure' , 'Jupyter' ,'Quartus',
     'Verilog' , 'Matlab' , 'HTML' , 'Docker' , 'R', 'OBS', 'VHDL']);
   const [Honor, setsHonor] = useState(['Tau Beta Pi member' , 'National Robot Competition Prize for Excellence' , 'National Creativity Competition Prize of Gold',
-   'USC CEC Department Schoolship' , 'President’s Honor List']);
+   'USC CEC Department Scholarship' , 'President’s Honor List']);
   const [project, setsproject] = useState(['Library system app' , 'Data key-in form in Excel' , 'Online shop made by Wix',
    'Machine learning & deep learning research lab']);
 
