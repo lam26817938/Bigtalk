@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter  as Router, Route, Routes } from 'react-router-dom';
 
 import MTK from "./pages/MTK";
 import Home from "./pages/Home";
@@ -8,11 +8,12 @@ import Info from "./pages/Info";
 import Itri from "./pages/Itri";
 import Library from "./pages/Library";
 import Encoder from "./pages/encoder";
+import Gamma from "./pages/gamma";
 
 function App() {
 
     return (
-        <Router basename="/Bigtalk">
+        <Router>
 
               <Routes>
                 <Route path='/' element={<Home/>}/>
@@ -22,6 +23,7 @@ function App() {
                 <Route path='/Itri' element={<Itri/>}/>
                 <Route path='/Library' element={<Library/>}/>
                 <Route path='/encoder' element={<Encoder/>}/>
+                <Route path='/Gamma' element={<Gamma/>}/>
               </Routes>
 
         </Router >

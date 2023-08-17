@@ -6,7 +6,7 @@ import { Button } from 'react-native-elements';
 
 const Info = () => {
   const navigate = useNavigate();
-  const [courses, setCourses] = useState(['Data Structures andAlgorithms', 'Computer Systems Engineering', 'Compiler Construction', 'Operating Systems', 'Intro to Computer Networks',
+  const [courses, setCourses] = useState(['Data Structures and Algorithms', 'Computer Systems Engineering', 'Compiler Construction', 'Operating Systems', 'Intro to Computer Networks',
    'Database System Design', 'Big Data Analytics', 'Advanced Digital Design']);
   const [courses2, setCourses2] = useState(['Signals and Systems', 'Robotic Applications & Design', 'Statistics for Engineers', 'Discrete Structures', 'Elem Differential Equations', 'Vector Calculus',
    'Algorithmic Design', 'Intro Electrical Engr Lab', 'UNIX/Linux Fundamentals', 'Digital Logic Design', 'Electrical Science', 'Circuits', 'Intro to Computer Architecture', 'Advanced Programming Tech', 'Essentials of Physics',
