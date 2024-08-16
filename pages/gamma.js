@@ -9,7 +9,7 @@ const Gamma = () =>{
     return(
         <View style={styles.container}>
         <Iframe
-        url="https://gamma.app/embed/fnv31z6w78bdgag"
+        url="https://gamma.app/embed/cvpw21igxp8gw9s"
         width="100%"
         height="100%"
         allowFullScreen
