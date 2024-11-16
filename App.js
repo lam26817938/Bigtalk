@@ -16,13 +16,13 @@ function App() {
         <Router>
 
               <Routes>
-                <Route path='/' element={<Home/>}/>
-                <Route path='/MTK' element={<MTK/>}/>
+                <Route path='/' element={<Gamma/>}/>
+                {/* <Route path='/MTK' element={<MTK/>}/>
                 <Route path='/RA' element={<RA/>}/>
                 <Route path='/Info' element={<Info/>}/>
                 <Route path='/Itri' element={<Itri/>}/>
                 <Route path='/Library' element={<Library/>}/>
-                <Route path='/encoder' element={<Encoder/>}/>
+                <Route path='/encoder' element={<Encoder/>}/> */}
                 <Route path='/Gamma' element={<Gamma/>}/>
               </Routes>
 

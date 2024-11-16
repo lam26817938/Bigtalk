@@ -183,7 +183,7 @@ const styles = StyleSheet.create({
   title: {
     position: 'absolute',
     top: 40,
-    left: 400,
+    left: 350,
     margin: 10,
     fontSize: 28,
     fontWeight: 'bold',
